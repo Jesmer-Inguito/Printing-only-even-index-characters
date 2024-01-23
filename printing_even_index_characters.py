@@ -10,3 +10,5 @@ print("The word you've chosen is:", word)
 size = len(word)
 
 # Print even index characters
+for i in range(0, size, 2):
+    print(word[i])
